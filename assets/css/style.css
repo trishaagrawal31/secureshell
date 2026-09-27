@@ -1,14 +1,5 @@
 /* SecureShell stylesheet */
 
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Colors */
-
 /* Base typography */
 body {
   font-family: "Times New Roman", Times, serif;
@@ -62,7 +53,7 @@ a:visited {
   color: #402A45;
 }
 
-/* ===================== Header ===================== */
+
 #site_header {
   background-color: #402A45;
   border-bottom: 4px solid #8FA37E;
@@ -135,6 +126,10 @@ main {
   padding: 2.5em 2em;
 }
 
+#sidebar,#content {
+  box-sizing: border-box;
+}
+
 #sidebar {
   float: left;
   width: 26%;
@@ -156,8 +151,7 @@ main {
   margin-top: 0;
 }
 
-#sidebar ol,
-#sidebar ul {
+#sidebar ol, #sidebar ul {
   margin-left: 1.1em;
 }
 
