@@ -1,8 +1,14 @@
 /* SecureShell stylesheet */
 
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Base typography */
 body {
-  margin: 0;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
   color: #333333;
@@ -125,10 +131,6 @@ a:visited {
 main {
   overflow: hidden;
   padding: 2.5em 2em;
-}
-
-#sidebar,#content {
-  box-sizing: border-box;
 }
 
 #sidebar {
