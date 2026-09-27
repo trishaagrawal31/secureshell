@@ -44,7 +44,7 @@ h3 {
 
 p {
   margin-bottom: 1em;
-  max-width: 68ch;
+  max-width: 34rem;
 }
 
 /* Links */
@@ -192,7 +192,7 @@ th {
 }
 
 .team_figure {
-  max-width: 68ch;
+  max-width: 34rem;
   text-align: center;
 }
 
@@ -207,7 +207,7 @@ figcaption {
   border-left: 2px solid #6E8560;
   padding: 1em 1.3em;
   margin: 1em 0 1.5em;
-  max-width: 68ch;
+  max-width: 34rem;
 }
 
 .answer_key span {
