@@ -191,6 +191,11 @@ th {
   margin-bottom: 0.5em;
 }
 
+.team_figure {
+  max-width: 68ch;
+  text-align: center;
+}
+
 figcaption {
   font-size: 0.85em;
   color: #6b7280;
