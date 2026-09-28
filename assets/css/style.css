@@ -65,12 +65,11 @@ a:visited {
   background-color: #402A45;
   border-bottom: 4px solid #8FA37E;
   padding: 0.6em 2em;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
+  overflow: hidden;
 }
 
 #site_header .site_name {
+  float: left;
   font-family: "Courier New", Courier, monospace;
   color: #ffffff;
   font-size: 1.5em;
@@ -80,19 +79,19 @@ a:visited {
 }
 
 #site_header .tagline {
+  float: left;
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
   font-size: 0.8em;
   color: #F4F1EC;
-  margin: 0 0 0 0.9em;
+  margin: 0.55em 0 0 0.9em;
   letter-spacing: 0.02em;
 }
 
 #site_header img {
+  float: left;
   height: 28px;
-  vertical-align: middle;
-  margin-right: 0.5em;
-  align-self: center;
+  margin: 0.35em 0.5em 0 0;
 }
 
 /* Navigation */
@@ -129,7 +128,6 @@ a:visited {
 
 /* Layout */
 main {
-  overflow: hidden;
   padding: 2.5em 2em;
 }
 
